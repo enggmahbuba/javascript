@@ -1,0 +1,147 @@
+.name{
+height: 20px;
+width: 200px;
+font-size: 20px;
+font-weight: 300;
+color: goldenrod;
+position: relative;
+top: 10px;
+}
+.nav{
+height: 50px;
+width: 100%;
+background-color: black;
+display: flex;
+justify-content: space-between;
+
+}
+.home{
+height: 20px;
+width: 45px;
+text-align: center;
+background-color: aquamarine;
+color: brown;
+font-size: 10px;
+
+}
+.home:hover{
+background-color: aqua;
+color: blue;
+
+}
+.signin{
+    height: 20px;
+    width: 45px;
+    background-color: aquamarine;
+    color: brown;
+
+    font-size: 10px;
+    
+    }
+    .signin:hover{
+        background-color: rgb(20, 139, 36);
+        color: rgb(10, 75, 64);
+        
+        }
+    .signup{
+        
+            height: 20px;
+            width: 45px;
+            background-color: aquamarine;
+            color: brown;
+            font-size: 9px;
+            
+    }
+    .signup:hover{
+        background-color: rgb(150, 20, 143);
+        color: rgb(94, 6, 82);
+        
+        }
+    .bar{
+
+        height: 20px;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 10px;
+        right:20px ;
+    }
+    .nav1{
+height: 50px;
+width: 100%;
+background-color: rgb(190, 186, 186);
+position: relative;
+top: 100px;
+display: flex;
+justify-content: space-between;
+
+
+    }
+    .logo1{
+        height: 45px;
+        width: 100px;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/044/998/829/small/hand-drawn-black-and-white-cartoon-me-symbol-png.png");
+        background-size: cover;
+
+    }
+    .bar1{
+
+        height: 20px;
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        position:relative;
+        top: 10px;
+        right: 50px;
+    }
+    .home1{
+
+       height: 30px;
+       width: 50px;
+       position:relative;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCrWGBfRhyEh2j5FRdip5YCqvhLqjj6dEXwyUcd6QK9bTNvVrSE9Jgnzk2nh762iWmeA&usqp=CAU");
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    
+      
+    }
+    .home2{
+        height: 30px;
+        width: 50px;
+        position:relative;
+        
+         border-radius: 5px;
+        
+       display:none;
+      
+         
+       
+     }
+     .home1:hover + .home2{
+
+        display:block;
+        color:aliceblue;
+     }
+    .about{
+
+        height: 30px;
+        width: 50px;
+        position:relative;
+         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCrWGBfRhyEh2j5FRdip5YCqvhLqjj6dEXwyUcd6QK9bTNvVrSE9Jgnzk2nh762iWmeA&usqp=CAU");
+         background-repeat: no-repeat;
+        
+         background-position: -70px 0px;
+         border-radius: 5px;
+        
+          
+     }
+     .contact{
+        height: 30px;
+            width: 50px;
+            position:relative;
+             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCrWGBfRhyEh2j5FRdip5YCqvhLqjj6dEXwyUcd6QK9bTNvVrSE9Jgnzk2nh762iWmeA&usqp=CAU");
+             background-position: -110px 0px;
+             border-radius: 5px;
+
+     }
